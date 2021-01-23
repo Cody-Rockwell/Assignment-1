@@ -19,7 +19,7 @@ float CalculateAreaOfTrapezoid(float fltBaseA, float fltBaseB, float fltHeight)
 {
     float fltAreaOfTrapezoid = 0.f;
 
-    fltAreaOfTrapezoid = (((fltBaseA + fltBaseB) * fltHeight) / 2);
+    fltAreaOfTrapezoid = (((fltBaseA + fltBaseB) * fltHeight) / 2.0);
 
     return fltAreaOfTrapezoid;
 }

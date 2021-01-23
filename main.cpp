@@ -47,9 +47,9 @@ int main()
         {
         case 'a':
         case 'A': // Hypotenuse of a Triangle
-            fltLengthOfSideA = 0.f;
-            fltLengthOfSideB = 0.f;
-            fltHypotenuseOfTriangle = 0.f;
+            fltLengthOfSideA = 0;
+            fltLengthOfSideB = 0;
+            fltHypotenuseOfTriangle = 0;
 
             cout << "\nCalculating the hypotenuse of a triangle." << endl;
 
@@ -66,10 +66,10 @@ int main()
 
         case 'b':
         case 'B': // Area of a Trapezoid
-            fltLengthOfBaseA = 0.f;
-            fltLengthOfBaseB = 0.f;
-            fltHeightOfTrapezoid = 0.f;
-            fltAreaOfTrapezoid = 0.f;
+            fltLengthOfBaseA = 0;
+            fltLengthOfBaseB = 0;
+            fltHeightOfTrapezoid = 0;
+            fltAreaOfTrapezoid = 0;
 
             cout << "\nCalculating the area of a trapezoid." << endl;
 
@@ -89,9 +89,9 @@ int main()
 
         case 'c':
         case 'C': // Area of a Rectangle
-            fltLengthOfSideA = 0.f;
-            fltLengthOfSideB = 0.f;
-            fltAreaOfRectangle = 0.f;
+            fltLengthOfSideA = 0;
+            fltLengthOfSideB = 0;
+            fltAreaOfRectangle = 0;
 
             cout << "\nCalculating the area of a rectangle." << endl;
 
@@ -108,10 +108,10 @@ int main()
 
         case 'd':
         case 'D': // Volume of a Rectangular Hexahedron
-            fltLengthOfSideA = 0.f;
-            fltLengthOfSideB = 0.f;
-            fltLengthOfSideC = 0.f;
-            fltVolumeOfRectangularHexahedron = 0.f;
+            fltLengthOfSideA = 0;
+            fltLengthOfSideB = 0;
+            fltLengthOfSideC = 0;
+            fltVolumeOfRectangularHexahedron = 0;
 
             cout << "\nCalculating the volume of a rectangular hexahedron" << endl;
 
